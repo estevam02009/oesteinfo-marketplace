@@ -5,9 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>OesteInfo Marketplace</title>
+        @vite('resources/css/app.css')
 
     </head>
     <body>
-
+        <livewire:header />
+        <livewire:hero-section />
     </body>
 </html>
